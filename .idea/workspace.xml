@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c620a7a-ecc0-4514-874b-49334312af0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pattern/proxy/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/proxy/ProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/proxy/ProxyProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/proxy/RealProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Rainbow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/adapter/AdapterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/adapter/AdapterMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +62,34 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bridge" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\IdeaProject\design_pattern\src\pattern\abstractFactory" />
       <recent name="E:\workspace\IdeaProject\design_pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProxyMain">
+  <component name="RunManager" selected="Application.BridgeMain">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.adapter.AdapterMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pattern.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgeMain" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.single.SingleMain" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.ProxyMain" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.BuilderMain" />
         <item itemvalue="Application.PrototypeMain" />
-        <item itemvalue="Application.SingleMain" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +165,7 @@
       <workItem from="1639890026740" duration="2989000" />
       <workItem from="1639979205672" duration="4385000" />
       <workItem from="1640004559456" duration="852000" />
-      <workItem from="1640088889072" duration="1839000" />
+      <workItem from="1640088889072" duration="4279000" />
     </task>
     <task id="LOCAL-00001" summary="测试一次">
       <created>1639486013336</created>
@@ -202,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639992799991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成代理模式实现">
+      <created>1640091991662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640091991662</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,41 +229,42 @@
     <MESSAGE value="完成原型模式实现（克隆）" />
     <MESSAGE value="完成建造者模式实现" />
     <MESSAGE value="完成适配器模式实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成适配器模式实现" />
+    <MESSAGE value="完成代理模式实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成代理模式实现" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640089109207">
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640092414531">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640089109207" />
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640092414531" />
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639890805488">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639890805488" />
-    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1639992799565">
+    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640091991238">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1639992799565" />
+    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640091991238" />
     <state x="696" y="446" key="Gitee.CreateGistDialog" timestamp="1639485800014">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="696" y="446" key="Gitee.CreateGistDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639485800014" />
-    <state width="1599" height="224" key="GridCell.Tab.0.bottom" timestamp="1640089472599">
+    <state width="1599" height="224" key="GridCell.Tab.0.bottom" timestamp="1640093520086">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640089472599" />
-    <state width="1599" height="224" key="GridCell.Tab.0.center" timestamp="1640089472599">
+    <state width="1599" height="224" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520086" />
+    <state width="1599" height="224" key="GridCell.Tab.0.center" timestamp="1640093520085">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640089472599" />
-    <state width="1599" height="224" key="GridCell.Tab.0.left" timestamp="1640089472598">
+    <state width="1599" height="224" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520085" />
+    <state width="1599" height="224" key="GridCell.Tab.0.left" timestamp="1640093520085">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640089472598" />
-    <state width="1599" height="224" key="GridCell.Tab.0.right" timestamp="1640089472599">
+    <state width="1599" height="224" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520085" />
+    <state width="1599" height="224" key="GridCell.Tab.0.right" timestamp="1640093520086">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640089472599" />
+    <state width="1599" height="224" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520086" />
     <state x="385" y="175" key="SettingsEditor" timestamp="1639485256284">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
