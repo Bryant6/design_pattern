@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c620a7a-ecc0-4514-874b-49334312af0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bridge/BridgeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Rainbow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bridge.BridgeMain" />
+      <option name="MAIN_CLASS_NAME" value="pattern.bridge.BridgeMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bridge.*" />
+          <option name="PATTERN" value="pattern.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,7 +156,7 @@
       <workItem from="1639890026740" duration="2989000" />
       <workItem from="1639979205672" duration="4385000" />
       <workItem from="1640004559456" duration="852000" />
-      <workItem from="1640088889072" duration="4279000" />
+      <workItem from="1640088889072" duration="4564000" />
     </task>
     <task id="LOCAL-00001" summary="测试一次">
       <created>1639486013336</created>
@@ -216,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640091991662</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完成桥接模式实现">
+      <created>1640094621638</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640094621638</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +228,8 @@
     <MESSAGE value="完成建造者模式实现" />
     <MESSAGE value="完成适配器模式实现" />
     <MESSAGE value="完成代理模式实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成代理模式实现" />
+    <MESSAGE value="完成桥接模式实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成桥接模式实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640092414531">
@@ -241,10 +240,10 @@
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639890805488" />
-    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640091991238">
+    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640094621249">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640091991238" />
+    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094621249" />
     <state x="696" y="446" key="Gitee.CreateGistDialog" timestamp="1639485800014">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
@@ -269,10 +268,10 @@
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="385" y="175" key="SettingsEditor/62.0.1645.1067@62.0.1645.1067" timestamp="1639485256284" />
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1639992801332">
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640094622864">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1639992801332" />
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094622864" />
     <state x="567" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1640088895311">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
