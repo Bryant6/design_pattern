@@ -14,5 +14,6 @@ public class AdapterMain {
         //通过适配器使用300w充电器给200w电脑充电
         System.out.print("过适配器使用300w充电器给200w电脑充电:");
         w200.charge("300w");
+
     }
 }
