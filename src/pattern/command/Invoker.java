@@ -11,7 +11,7 @@ public class Invoker {
     }
 
     public void send(){
+        System.out.println("调用者收到命令");
         command.execute();
-        System.out.println("调用者执行命令");
     }
 }

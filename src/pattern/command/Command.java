@@ -12,7 +12,7 @@ public class Command {
     }
 
     public void execute(){
-        receiver.action();
         System.out.println("命令传到了接收者");
+        receiver.action();
     }
 }
