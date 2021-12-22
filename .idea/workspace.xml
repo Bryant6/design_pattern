@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c620a7a-ecc0-4514-874b-49334312af0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/AObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/BObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/CObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/VisitorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/responsibility_chain/AHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/responsibility_chain/BHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/responsibility_chain/CHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/responsibility_chain/ChainMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/responsibility_chain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/state/Astate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/state/Bstate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/state/StateMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/command/CommandMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/command/CommandMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pattern/command/Invoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pattern/command/Invoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +71,31 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern.responsibility_chain" />
+      <recent name="pattern.visitor" />
+      <recent name="pattern.state" />
       <recent name="pattern.strategy" />
       <recent name="pattern.template" />
-      <recent name="bridge" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\IdeaProject\design_pattern\src\pattern\abstractFactory" />
       <recent name="E:\workspace\IdeaProject\design_pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommandMain">
+  <component name="RunManager" selected="Application.ChainMain">
+    <configuration name="ChainMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.responsibility_chain.ChainMain" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.responsibility_chain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.command.CommandMain" />
       <module name="design_pattern" />
@@ -80,25 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.composite.CompositeMain" />
+    <configuration name="StateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.state.StateMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterpretMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.interpreter.InterpretMain" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.interpreter.*" />
+          <option name="PATTERN" value="pattern.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.template.TemplateMain" />
+    <configuration name="VisitorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.observer.VisitorMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.template.*" />
+          <option name="PATTERN" value="pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CommandMain" />
+        <item itemvalue="Application.ChainMain" />
+        <item itemvalue="Application.VisitorMain" />
+        <item itemvalue="Application.StateMain" />
         <item itemvalue="Application.StrategyMain" />
-        <item itemvalue="Application.TemplateMain" />
-        <item itemvalue="Application.InterpretMain" />
-        <item itemvalue="Application.CompositeMain" />
+        <item itemvalue="Application.CommandMain" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +178,7 @@
       <workItem from="1639979205672" duration="4385000" />
       <workItem from="1640004559456" duration="852000" />
       <workItem from="1640088889072" duration="4638000" />
-      <workItem from="1640138263917" duration="15708000" />
+      <workItem from="1640138263917" duration="21563000" />
     </task>
     <task id="LOCAL-00001" summary="测试一次">
       <created>1639486013336</created>
@@ -255,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640169720396</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="更改命令模式">
+      <created>1640170591723</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640170591723</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,56 +298,57 @@
     <MESSAGE value="添加README文档" />
     <MESSAGE value="完成解释器模式和模板模式的实例" />
     <MESSAGE value="完成策略和命令模式的实例" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成策略和命令模式的实例" />
+    <MESSAGE value="更改命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改命令模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640168733671">
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640174987528">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640168733671" />
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640174987528" />
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639890805488">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639890805488" />
-    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640169720005">
+    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640170591359">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640169720005" />
+    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640170591359" />
     <state x="696" y="446" key="Gitee.CreateGistDialog" timestamp="1639485800014">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="696" y="446" key="Gitee.CreateGistDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639485800014" />
-    <state width="1599" height="190" key="GridCell.Tab.0.bottom" timestamp="1640170059238">
+    <state width="1599" height="275" key="GridCell.Tab.0.bottom" timestamp="1640175617484">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="190" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640170059238" />
-    <state width="1599" height="190" key="GridCell.Tab.0.center" timestamp="1640170059238">
+    <state width="1599" height="275" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640175617484" />
+    <state width="1599" height="275" key="GridCell.Tab.0.center" timestamp="1640175617484">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="190" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640170059238" />
-    <state width="1599" height="190" key="GridCell.Tab.0.left" timestamp="1640170059237">
+    <state width="1599" height="275" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640175617484" />
+    <state width="1599" height="275" key="GridCell.Tab.0.left" timestamp="1640175617483">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="190" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640170059237" />
-    <state width="1599" height="190" key="GridCell.Tab.0.right" timestamp="1640170059238">
+    <state width="1599" height="275" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640175617483" />
+    <state width="1599" height="275" key="GridCell.Tab.0.right" timestamp="1640175617484">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="190" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640170059238" />
+    <state width="1599" height="275" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640175617484" />
     <state x="385" y="175" key="SettingsEditor" timestamp="1639485256284">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="385" y="175" key="SettingsEditor/62.0.1645.1067@62.0.1645.1067" timestamp="1639485256284" />
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640169721786">
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640170592783">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640169721786" />
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640170592783" />
     <state x="567" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1640138267765">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="567" y="357" key="com.intellij.ide.util.TipDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1640138267765" />
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640169640131">
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640174587402">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640169640131" />
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640174587402" />
   </component>
 </project>
