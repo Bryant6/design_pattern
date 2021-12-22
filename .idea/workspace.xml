@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c620a7a-ecc0-4514-874b-49334312af0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/CompositeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/DecoratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/PhoneDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/facade/Design.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/facade/FacadeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/facade/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/facade/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/flyweight/FlyWeightMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/flyweight/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/flyweight/PhoneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,20 +76,7 @@
       <recent name="E:\workspace\IdeaProject\design_pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BridgeMain">
-    <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.adapter.AdapterMain" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CompositeMain">
     <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.bridge.BridgeMain" />
       <module name="design_pattern" />
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.builder.BuilderMain" />
+    <configuration name="CompositeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.composite.CompositeMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.builder.*" />
+          <option name="PATTERN" value="pattern.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.prototype.PrototypeMain" />
+    <configuration name="DecoratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.decorator.DecoratorMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.prototype.*" />
+          <option name="PATTERN" value="pattern.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.proxy.ProxyMain" />
+    <configuration name="FacadeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.facade.FacadeMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.proxy.*" />
+          <option name="PATTERN" value="pattern.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyWeightMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.flyweight.FlyWeightMain" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompositeMain" />
+        <item itemvalue="Application.FlyWeightMain" />
+        <item itemvalue="Application.FacadeMain" />
+        <item itemvalue="Application.DecoratorMain" />
         <item itemvalue="Application.BridgeMain" />
-        <item itemvalue="Application.ProxyMain" />
-        <item itemvalue="Application.AdapterMain" />
-        <item itemvalue="Application.BuilderMain" />
-        <item itemvalue="Application.PrototypeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +171,8 @@
       <workItem from="1639890026740" duration="2989000" />
       <workItem from="1639979205672" duration="4385000" />
       <workItem from="1640004559456" duration="852000" />
-      <workItem from="1640088889072" duration="4564000" />
+      <workItem from="1640088889072" duration="4638000" />
+      <workItem from="1640138263917" duration="5236000" />
     </task>
     <task id="LOCAL-00001" summary="测试一次">
       <created>1639486013336</created>
@@ -214,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640094621638</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更改桥接模式包位置">
+      <created>1640094818141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640094818141</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,56 +252,57 @@
     <MESSAGE value="完成适配器模式实现" />
     <MESSAGE value="完成代理模式实现" />
     <MESSAGE value="完成桥接模式实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成桥接模式实现" />
+    <MESSAGE value="更改桥接模式包位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改桥接模式包位置" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640092414531">
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640156659493">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640092414531" />
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640156659493" />
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639890805488">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639890805488" />
-    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640094621249">
+    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640094817706">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094621249" />
+    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094817706" />
     <state x="696" y="446" key="Gitee.CreateGistDialog" timestamp="1639485800014">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="696" y="446" key="Gitee.CreateGistDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639485800014" />
-    <state width="1599" height="224" key="GridCell.Tab.0.bottom" timestamp="1640093520086">
+    <state width="1599" height="424" key="GridCell.Tab.0.bottom" timestamp="1640157064185">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520086" />
-    <state width="1599" height="224" key="GridCell.Tab.0.center" timestamp="1640093520085">
+    <state width="1599" height="424" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640157064185" />
+    <state width="1599" height="424" key="GridCell.Tab.0.center" timestamp="1640157064185">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520085" />
-    <state width="1599" height="224" key="GridCell.Tab.0.left" timestamp="1640093520085">
+    <state width="1599" height="424" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640157064185" />
+    <state width="1599" height="424" key="GridCell.Tab.0.left" timestamp="1640157064185">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520085" />
-    <state width="1599" height="224" key="GridCell.Tab.0.right" timestamp="1640093520086">
+    <state width="1599" height="424" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640157064185" />
+    <state width="1599" height="424" key="GridCell.Tab.0.right" timestamp="1640157064185">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="224" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640093520086" />
+    <state width="1599" height="424" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640157064185" />
     <state x="385" y="175" key="SettingsEditor" timestamp="1639485256284">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="385" y="175" key="SettingsEditor/62.0.1645.1067@62.0.1645.1067" timestamp="1639485256284" />
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640094622864">
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640094819222">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094622864" />
-    <state x="567" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1640088895311">
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640094819222" />
+    <state x="567" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1640138267765">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="567" y="357" key="com.intellij.ide.util.TipDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1640088895311" />
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640089101508">
+    <state x="567" y="357" key="com.intellij.ide.util.TipDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1640138267765" />
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640156996517">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640089101508" />
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640156996517" />
   </component>
 </project>
