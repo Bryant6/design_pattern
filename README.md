@@ -1,8 +1,9 @@
 AbstractFactory：抽象工厂模式
 adapter：适配器模式
 bridge:桥接模式
-composite：组合模式
 builder：建造者模式
+command：命令模式
+composite：组合模式
 decorator：装饰器模式
 facade：外观模式
 factoryMethod：工厂方法模式
@@ -10,3 +11,5 @@ flyweight：享元模式
 prototype：原型模式
 proxy：代理模式
 single：单例模式
+strategy：策略模式
+template：模板模式
