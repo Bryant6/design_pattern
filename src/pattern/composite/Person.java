@@ -7,10 +7,11 @@ import java.util.List;
  * @author wangyu
  * @date 2021/12/22 14:57
  */
+//表示一个人
 public class Person {
-    private String type;
-    private String name;
-    private List<Person> person_list;
+    private String type;        //职位
+    private String name;        //姓名
+    private List<Person> person_list;       //管理的人员
 
     public Person(String type, String name) {
         this.type = type;

@@ -13,5 +13,6 @@ public class Facade {
         design.design();
         model.model();
         run.run();
+        System.out.println("问题解决了");
     }
 }
