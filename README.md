@@ -1,6 +1,6 @@
 - AbstractFactory：抽象工厂模式
 - adapter：适配器模式
-- bridge:桥接模式
+- bridge: 桥接模式
 - builder：建造者模式
 - command：命令模式
 - composite：组合模式
