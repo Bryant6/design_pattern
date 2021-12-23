@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c620a7a-ecc0-4514-874b-49334312af0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/IteratorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/MediatorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/MementoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/AElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/AVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/BElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/BVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Structure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/VisitorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pattern.responsibility_chain" />
       <recent name="pattern.visitor" />
+      <recent name="pattern.responsibility_chain" />
       <recent name="pattern.state" />
       <recent name="pattern.strategy" />
       <recent name="pattern.template" />
@@ -76,7 +73,7 @@
       <recent name="E:\workspace\IdeaProject\design_pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorMain">
+  <component name="RunManager" selected="Application.VisitorMain (1)">
     <configuration name="ChainMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.responsibility_chain.ChainMain" />
       <module name="design_pattern" />
@@ -129,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.observer.VisitorMain" />
+    <configuration name="VisitorMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.visitor.VisitorMain" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.observer.*" />
+          <option name="PATTERN" value="pattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorMain (1)" />
         <item itemvalue="Application.IteratorMain" />
         <item itemvalue="Application.MediatorMain" />
         <item itemvalue="Application.MementoMain" />
         <item itemvalue="Application.ChainMain" />
-        <item itemvalue="Application.VisitorMain" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,7 @@
       <workItem from="1640004559456" duration="852000" />
       <workItem from="1640088889072" duration="4638000" />
       <workItem from="1640138263917" duration="22959000" />
-      <workItem from="1640240675627" duration="3374000" />
+      <workItem from="1640240675627" duration="5137000" />
     </task>
     <task id="LOCAL-00001" summary="测试一次">
       <created>1639486013336</created>
@@ -280,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640176645467</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="实现中介者、备忘录、迭代器模式">
+      <created>1640244270538</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640244270538</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,56 +306,61 @@
     <MESSAGE value="完成策略和命令模式的实例" />
     <MESSAGE value="更改命令模式" />
     <MESSAGE value="更改状态、观察、责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改状态、观察、责任链模式" />
+    <MESSAGE value="实现中介者、备忘录、迭代器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现中介者、备忘录、迭代器模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640243439445">
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser" timestamp="1640245309143">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640243439445" />
+    <state x="774" y="338" key="#com.intellij.ide.util.MemberChooser/62.0.1645.1067@62.0.1645.1067" timestamp="1640245309143" />
+    <state x="639" y="87" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640245166041">
+      <screen x="62" y="0" width="1645" height="1067" />
+    </state>
+    <state x="639" y="87" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1640245166041" />
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639890805488">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="614" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639890805488" />
-    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640176645048">
+    <state x="493" y="125" key="CommitChangelistDialog2" timestamp="1640244270060">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640176645048" />
+    <state x="493" y="125" key="CommitChangelistDialog2/62.0.1645.1067@62.0.1645.1067" timestamp="1640244270060" />
     <state x="696" y="446" key="Gitee.CreateGistDialog" timestamp="1639485800014">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="696" y="446" key="Gitee.CreateGistDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1639485800014" />
-    <state width="1599" height="275" key="GridCell.Tab.0.bottom" timestamp="1640243748116">
+    <state width="1599" height="275" key="GridCell.Tab.0.bottom" timestamp="1640245610164">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="275" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640243748116" />
-    <state width="1599" height="275" key="GridCell.Tab.0.center" timestamp="1640243748116">
+    <state width="1599" height="275" key="GridCell.Tab.0.bottom/62.0.1645.1067@62.0.1645.1067" timestamp="1640245610164" />
+    <state width="1599" height="275" key="GridCell.Tab.0.center" timestamp="1640245610164">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="275" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640243748116" />
-    <state width="1599" height="275" key="GridCell.Tab.0.left" timestamp="1640243748116">
+    <state width="1599" height="275" key="GridCell.Tab.0.center/62.0.1645.1067@62.0.1645.1067" timestamp="1640245610164" />
+    <state width="1599" height="275" key="GridCell.Tab.0.left" timestamp="1640245610164">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="275" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640243748116" />
-    <state width="1599" height="275" key="GridCell.Tab.0.right" timestamp="1640243748116">
+    <state width="1599" height="275" key="GridCell.Tab.0.left/62.0.1645.1067@62.0.1645.1067" timestamp="1640245610164" />
+    <state width="1599" height="275" key="GridCell.Tab.0.right" timestamp="1640245610164">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state width="1599" height="275" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640243748116" />
+    <state width="1599" height="275" key="GridCell.Tab.0.right/62.0.1645.1067@62.0.1645.1067" timestamp="1640245610164" />
     <state x="385" y="175" key="SettingsEditor" timestamp="1639485256284">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="385" y="175" key="SettingsEditor/62.0.1645.1067@62.0.1645.1067" timestamp="1639485256284" />
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640176646887">
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2" timestamp="1640244272288">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640176646887" />
+    <state x="476" y="266" key="Vcs.Push.Dialog.v2/62.0.1645.1067@62.0.1645.1067" timestamp="1640244272288" />
     <state x="567" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1640240676502">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
     <state x="567" y="357" key="com.intellij.ide.util.TipDialog/62.0.1645.1067@62.0.1645.1067" timestamp="1640240676502" />
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640174587402">
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1640245518795">
       <screen x="62" y="0" width="1645" height="1067" />
     </state>
-    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640174587402" />
+    <state x="547" y="232" width="672" height="678" key="search.everywhere.popup/62.0.1645.1067@62.0.1645.1067" timestamp="1640245518795" />
   </component>
 </project>
